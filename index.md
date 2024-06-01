@@ -4,7 +4,7 @@ layout: default
 
 Lorem ipsum dolor sit amet.
 
-[button url="http://www.google.com"]
+{% include button.html url="http://www.google.com" %}
 
 [Link to another page](./another-page.html).
 
