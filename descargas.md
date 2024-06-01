@@ -17,8 +17,10 @@ Utilidades para usuarios de maquinaria CNC
 
 ### killOverlap
 Aplicación de código abierto para unificar todas las lineas que e encuentren superpuestas en dibujos de formato SVG.
+
 [KillOverlap](https://github.com/ezequielleonzybert/killoverlap)
 
 ### Adaptador para extractor de humos
 Plantilla de corte SVG de un adaptador para el extractor de humos a la máquina de 50W 40x40cm
+
 [Fan Adapter](files/fan_adapter/fan_adapter.md)
