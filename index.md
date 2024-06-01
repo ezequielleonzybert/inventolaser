@@ -14,7 +14,7 @@ layout: default
 </p>
 
 #### ¡Bienvenidos a Invento Laser!
-Estamos encantados de recibirte en nuestra página web, tu destino ideal para soluciones de corte y grabado con máquina láser. En Invento Laser transformamos tus ideas en realidad con precisión y detalle inigualables.
+Estamos encantados de recibirte en nuestra página web, tu destino ideal para soluciones de corte y grabado con tecnología láser. En Invento Laser transformamos tus ideas en realidad con precisión y detalle inigualables.
 
 ##### Nuestros Servicios:
 * Corte Láser de Alta Precisión: Perfecto para prototipos y producción en masa.
