@@ -20,8 +20,8 @@ layout: default
     </a>
 </p>
 <p align="center">
-    <a href="./juguetes.html">
+    <a href="./disenos/juguetes.html">
         <p>Juguetes</p>
-        <img src="disenos/img/exhibidores/3.jpg" alt="Descripción de Imagen 1" width="200" style="margin: 10px;">
+        <img src="disenos/juguetes/1.png" alt="Descripción de Imagen 1" width="200" style="margin: 10px;">
     </a>
 </p>
