@@ -2,29 +2,33 @@
 layout: default
 ---
 <p align="center">
-  <a href="./another-pahe.html" style="text-decoration: none;">
-    <button style="padding: 10px 20px; margin: 5px; background-color: #008CBA; color: white; border: none; border-radius: 5px;">Botón 1</button>
+  <a href="./disenos.html" style="text-decoration: none;">
+    <button style="padding: 10px 20px; margin: 5px; background-color: #008CBA; color: white; border: none; border-radius: 5px;">Diseños</button>
   </a>
-  <a href="https://ejemplo.com/enlace2" style="text-decoration: none;">
-    <button style="padding: 10px 20px; margin: 5px; background-color: #008CBA; color: white; border: none; border-radius: 5px;">Botón 2</button>
+  <a href="./descargas.html" style="text-decoration: none;">
+    <button style="padding: 10px 20px; margin: 5px; background-color: #008CBA; color: white; border: none; border-radius: 5px;">Descargas</button>
   </a>
-  <a href="https://ejemplo.com/enlace3" style="text-decoration: none;">
-    <button style="padding: 10px 20px; margin: 5px; background-color: #008CBA; color: white; border: none; border-radius: 5px;">Botón 3</button>
+  <a href="./contacto.html" style="text-decoration: none;">
+    <button style="padding: 10px 20px; margin: 5px; background-color: #008CBA; color: white; border: none; border-radius: 5px;">Contacto</button>
   </a>
 </p>
-<button name="button" onclick="./another-page.html">Home</button>
-<button name="button" onclick="./another-page.html">Home</button>
-<button name="button" onclick="./another-page.html">Home</button>
 
-[Link to another page](./another-page.html).
+#### ¡Bienvenidos a Invento Laser!
+Estamos encantados de recibirte en nuestra página web, tu destino ideal para soluciones de corte y grabado con máquina láser. En Invento Laser transformamos tus ideas en realidad con precisión y detalle inigualables.
 
-There should be whitespace between paragraphs.
+##### Nuestros Servicios:
+* Corte Láser de Alta Precisión: Perfecto para prototipos y producción en masa.
+* Grabado Personalizado: Añade un toque único a tus proyectos.
+* Diseños Personalizados: Creamos diseños a medida adaptados a tus necesidades.
+* Asesoría Experta: Te acompañamos en cada paso del proceso.
+##### ¿Por Qué Elegirnos?
+* Tecnología Avanzada: Equipos de última generación.
+* Atención al Cliente: Servicio excepcional y soluciones personalizadas.
+* Creatividad e Innovación: Llevamos tus ideas al siguiente nivel.
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+Explora nuestros servicios y contáctanos para comenzar a dar vida a tus proyectos con la magia del corte y grabado láser.
 
-# Header 1
-
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+¡Gracias por visitarnos y esperamos trabajar contigo pronto!
 
 ## Header 2
 
