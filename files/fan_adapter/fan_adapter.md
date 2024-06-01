@@ -29,7 +29,7 @@ layout: default
         // Cargar el modelo GLTF
         const loader = new THREE.GLTFLoader();
         loader.load(
-            'path/to/your/model.glb', // Reemplaza con la ruta de tu archivo GLB
+            'files/fan_adapter/fan_adapter.gltf', // Reemplaza con la ruta de tu archivo GLB
             (gltf) => {
                 scene.add(gltf.scene);
                 animate();
