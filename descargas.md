@@ -15,12 +15,22 @@ layout: default
 
 Utilidades para usuarios de maquinaria CNC
 
-### killOverlap
-Aplicación de código abierto para unificar todas las lineas que se encuentran superpuestas en dibujos de formato SVG.
+## Aplicaciones
 
+#### FreeCAD
+Aplicacion de código abierto para el diseño paramétrico de partes y ensambles
+[FreeCAD](https://github.com/FreeCAD/FreeCAD)
+
+#### MeerK40t
+Aplicación de código abierto para enviar archivos de corte (DXF, SVG) al dispositivo de corte laser. Soportando una variedad de placas controladoras, incluidas las de la serie Lihuiyu M-Nano.
+[MeerK40t](https://github.com/meerk40t/meerk40t)
+
+#### killOverlap
+Aplicación de código abierto para unificar todas las lineas que se encuentran superpuestas en dibujos de formato SVG.
 [KillOverlap](https://github.com/ezequielleonzybert/killoverlap)
 
-### Adaptador para extractor de humos
-Plantilla de corte SVG de adaptador para el extractor de humos de la máquina láser CO2 50W 40x40cm
+## Modelos
 
+#### Adaptador para extractor de humos
+Plantilla de corte SVG de adaptador para el extractor de humos de la máquina láser CO2 50W 40x40cm
 [Fan Adapter](./fan_adapter.md)
