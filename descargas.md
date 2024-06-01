@@ -21,6 +21,6 @@ Aplicación de código abierto para unificar todas las lineas que e encuentren s
 [KillOverlap](https://github.com/ezequielleonzybert/killoverlap)
 
 ### Adaptador para extractor de humos
-Plantilla de corte SVG de un adaptador para el extractor de humos a la máquina de 50W 40x40cm
+Plantilla de corte SVG de adaptador para el extractor de humos de la máquina láser CO2 50W 40x40cm
 
 [Fan Adapter](./fan_adapter.md)
