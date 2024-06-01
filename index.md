@@ -1,14 +1,20 @@
 ---
 layout: default
 ---
-
-Lorem ipsum dolor sit amet.
-
-{% include button.html url="http://www.google.com" %}
-
-Lorem ipsum dolor sit amet.
-
-<button name="button" onclick="http://www.google.com">Click me</button>
+<p align="center">
+  <a href="./another-pahe.html" style="text-decoration: none;">
+    <button style="padding: 10px 20px; margin: 5px; background-color: #008CBA; color: white; border: none; border-radius: 5px;">Botón 1</button>
+  </a>
+  <a href="https://ejemplo.com/enlace2" style="text-decoration: none;">
+    <button style="padding: 10px 20px; margin: 5px; background-color: #008CBA; color: white; border: none; border-radius: 5px;">Botón 2</button>
+  </a>
+  <a href="https://ejemplo.com/enlace3" style="text-decoration: none;">
+    <button style="padding: 10px 20px; margin: 5px; background-color: #008CBA; color: white; border: none; border-radius: 5px;">Botón 3</button>
+  </a>
+</p>
+<button name="button" onclick="./another-page.html">Home</button>
+<button name="button" onclick="./another-page.html">Home</button>
+<button name="button" onclick="./another-page.html">Home</button>
 
 [Link to another page](./another-page.html).
 
