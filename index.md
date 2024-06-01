@@ -22,7 +22,6 @@ Estamos encantados de recibirte en nuestra página web, tu destino ideal para so
 * Diseños Personalizados: Creamos diseños a medida adaptados a tus necesidades.
 * Asesoría Experta: Te acompañamos en cada paso del proceso.
 ##### ¿Por Qué Elegirnos?
-* Tecnología Avanzada: Equipos de última generación.
 * Atención al Cliente: Servicio excepcional y soluciones personalizadas.
 * Creatividad e Innovación: Llevamos tus ideas al siguiente nivel.
 
