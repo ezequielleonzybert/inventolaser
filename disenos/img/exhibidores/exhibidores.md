@@ -13,15 +13,4 @@ layout: default
   </a>
 </p>
 
-<p align="center">
-    <a href="./exhibidores.html">
-        <p>Exhibidores</p>
-        <img src="disenos/img/exhibidores/3.jpg" alt="Descripción de Imagen 1" width="200" style="margin: 10px;">
-    </a>
-</p>
-<p align="center">
-    <a href="./juguetes.html">
-        <p>Juguetes</p>
-        <img src="disenos/img/exhibidores/3.jpg" alt="Descripción de Imagen 1" width="200" style="margin: 10px;">
-    </a>
-</p>
+#### Exhibidores
