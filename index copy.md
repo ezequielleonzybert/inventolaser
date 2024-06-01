@@ -2,9 +2,7 @@
 layout: default
 ---
 
-Lorem ipsum dolor sit amet.
-
-[button url="http://www.google.com"]
+Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](./another-page.html).
 
