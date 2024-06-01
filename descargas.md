@@ -16,7 +16,7 @@ layout: default
 Utilidades para usuarios de maquinaria CNC
 
 ### killOverlap
-Aplicación de código abierto para unificar todas las lineas que e encuentren superpuestas en dibujos de formato SVG.
+Aplicación de código abierto para unificar todas las lineas que se encuentran superpuestas en dibujos de formato SVG.
 
 [KillOverlap](https://github.com/ezequielleonzybert/killoverlap)
 
