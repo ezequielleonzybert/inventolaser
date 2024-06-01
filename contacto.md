@@ -16,3 +16,5 @@ layout: default
 Whatsapp: [+541155881953](http://wa.me/+541155881953)
 Instagram: http://instagram.com/inventolaser
 Facebook: http://facebook.com/inventolaser
+
+Los Andes 1400, Haedo, Buenos Aires, Argentina
