@@ -13,8 +13,9 @@ layout: default
   </a>
 </p>
 ### Fan Adapter
-<!-- Import the component -->
-<script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"></script>
 
-<!-- Use it like any other HTML element -->
-<model-viewer alt="fan adapter" src="./files/fan_adapter/fan_adapter.gltf" shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
+<a href="https://sketchfab.com/models/294e79652f494130ad2ab00a13fdbafd">Buster Drone</a>,
+  by <a href="https://sketchfab.com/lavadragon">LaVADraGoN</a>.
+</p>
+
+<iframe src="https://gltf-viewer.donmccurdy.com#kiosk=1&model=https://storage.googleapis.com/blocks-town/tmp/busterDrone/busterDrone.gltf" style="width: 100%;" height="400px" frameBorder="0"></iframe>
