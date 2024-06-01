@@ -18,19 +18,19 @@ Utilidades para usuarios de maquinaria CNC
 ## Aplicaciones
 
 #### FreeCAD
-Aplicacion de código abierto para el diseño paramétrico de partes y ensambles
+Aplicacion de código abierto para el diseño paramétrico de partes y ensambles<br>
 [FreeCAD](https://github.com/FreeCAD/FreeCAD)
 
 #### MeerK40t
-Aplicación de código abierto para enviar archivos de corte (DXF, SVG) al dispositivo de corte laser. Soportando una variedad de placas controladoras, incluidas las de la serie Lihuiyu M-Nano.
+Aplicación de código abierto para enviar archivos de corte (DXF, SVG) al dispositivo de corte laser. Soportando una variedad de placas controladoras, incluidas las de la serie Lihuiyu M-Nano.<br>
 [MeerK40t](https://github.com/meerk40t/meerk40t)
 
 #### killOverlap
-Aplicación de código abierto para unificar todas las lineas que se encuentran superpuestas en dibujos de formato SVG.
+Aplicación de código abierto para unificar todas las lineas que se encuentran superpuestas en dibujos de formato SVG.<br>
 [KillOverlap](https://github.com/ezequielleonzybert/killoverlap)
 
 ## Modelos
 
 #### Adaptador para extractor de humos
-Plantilla de corte SVG de adaptador para el extractor de humos de la máquina láser CO2 50W 40x40cm
+Plantilla de corte SVG de adaptador para el extractor de humos de la máquina láser CO2 50W 40x40cm<br>
 [Fan Adapter](./fan_adapter.md)
