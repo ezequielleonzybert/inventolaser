@@ -12,3 +12,7 @@ layout: default
     <button style="padding: 10px 20px; margin: 5px; background-color: #33BFFF; color: white; border: none; border-radius: 5px;">Contacto</button>
   </a>
 </p>
+
+Whatsapp: [+541155881953](http://wa.me/+541155881953)
+Instagram: http://instagram.com/inventolaser
+Facebook: http://facebook.com/inventolaser
