@@ -6,6 +6,10 @@ Lorem ipsum dolor sit amet.
 
 {% include button.html url="http://www.google.com" %}
 
+Lorem ipsum dolor sit amet.
+
+<button name="button" onclick="http://www.google.com">Click me</button>
+
 [Link to another page](./another-page.html).
 
 There should be whitespace between paragraphs.
