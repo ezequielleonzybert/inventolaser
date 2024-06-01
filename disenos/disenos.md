@@ -14,14 +14,14 @@ layout: default
 </p>
 
 <p align="center">
-    <a href="./exhibidores.html">
+    <a href="./exhibidores/exhibidores.html">
         <p>Exhibidores</p>
-        <img src="disenos/img/exhibidores/3.jpg" alt="Descripción de Imagen 1" width="200" style="margin: 10px;">
+        <img src="./exhibidores/3.jpg" alt="Descripción de Imagen 1" width="200" style="margin: 10px;">
     </a>
 </p>
 <p align="center">
-    <a href="./disenos/juguetes.html">
+    <a href="./juguetes/juguetes.html">
         <p>Juguetes</p>
-        <img src="disenos/juguetes/1.png" alt="Descripción de Imagen 1" width="200" style="margin: 10px;">
+        <img src="./juguetes/1.png" alt="Descripción de Imagen 1" width="200" style="margin: 10px;">
     </a>
 </p>
