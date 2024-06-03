@@ -15,4 +15,4 @@ layout: default
 ### Fan Adapter
 ![fan_adapter](files/fan_adapter/fan_adapter.jpg)<br>
 
-<a href="files/fan_adapter/fan_adapter.svg" download>Descargar</a>
+<a href="files/fan_adapter/fan_adapter.zip" download>Descargar</a>
