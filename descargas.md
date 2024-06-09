@@ -17,17 +17,13 @@ Utilidades para usuarios de maquinaria CNC
 
 ## Aplicaciones
 
-#### FreeCAD
-Aplicacion de código abierto para el diseño paramétrico de partes y ensambles<br>
-[FreeCAD](https://github.com/FreeCAD/FreeCAD)
-
-#### MeerK40t
-Aplicación de código abierto para enviar archivos de corte (DXF, SVG) al dispositivo de corte laser. Soportando una variedad de placas controladoras, incluidas las de la serie Lihuiyu M-Nano.<br>
-[MeerK40t](https://github.com/meerk40t/meerk40t)
-
 #### killOverlap
 Aplicación de código abierto para unificar todas las lineas que se encuentran superpuestas en dibujos de formato SVG.<br>
 [KillOverlap](https://github.com/ezequielleonzybert/killoverlap)
+
+#### step2svg
+Convierte modelos de formato STEP en dibujos SVG haciendo una sección de los mismos sobre el plano XY. Ideal para obtener archivo de corte de modelos 3D
+[step2svg](https://github.com/ezequielleonzybert/step2svg)
 
 ## Modelos
 
