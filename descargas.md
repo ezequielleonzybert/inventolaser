@@ -19,7 +19,7 @@ Utilidades para usuarios de maquinaria CNC
 
 #### killOverlap
 Aplicación de código abierto para unificar todas las lineas que se encuentran superpuestas en dibujos de formato SVG.<br>
-[KillOverlap](https://github.com/ezequielleonzybert/killoverlap)
+[killOverlap](https://github.com/ezequielleonzybert/killoverlap)
 
 #### step2svg
 Convierte modelos de formato STEP en dibujos SVG haciendo una sección de los mismos sobre el plano XY. Ideal para obtener archivo de corte de modelos 3D
