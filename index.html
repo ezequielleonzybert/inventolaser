@@ -3,38 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menú Responsive</title>
+    <title>invento laser</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <nav>
-        <div class="menu-toggle" >
+        <div class="logo">           
+            <img src="assets/logo.svg" alt="logo" draggable="false">
+            <h1>invento laser</h1>
+        </div>
+        <ul class="buttons" >
+            <li><a href="index.html" draggable="false">inicio</a></li>
+            <li><a href="#" draggable="false">servicios</a></li>
+            <li><a href="#" draggable="false">productos</a></li>
+            <li><a href="#" draggable="false">contacto</a></li>
+        </ul>
+        <div class="hamburger" >
             &#9776; 
         </div>
-        <ul class="menu">
-            <img src="assets/logo.svg" alt="logo">
-            <li><a href="index.html">inicio</a></li>
-            <li><a href="#">servicios</a></li>
-            <li><a href="#">contacto</a></li>
-        </ul>
     </nav>
-    <div class="content">
-        <header>
-            <h1>invento laser</h1>
-            <h3>corte y grabado</h3>
-        </header>
-        <section>
-            <p>
-                En <strong>Invento Laser</strong> transformamos ideas en objetos únicos a través de la precisión y versatilidad del corte láser. Nos especializamos en diseñar y crear piezas personalizadas en una variedad de materiales como MDF y acrílicos. 
-                Desde cartelería y decoración hasta soluciones funcionales y de diseño, ofrecemos productos que combinan creatividad con tecnología avanzada.
-            </p>
-            <p>
-                Ya sea que necesites destacar tu marca, embellecer un espacio o crear una pieza única, estamos aquí para dar vida a tus proyectos con la máxima calidad y detalle.
-            </p>
-        </section>
-        <footer>
-        </footer>
-    </div>
+    <section>
+        <p>
+            En <i>invento laser</i> transformamos ideas en objetos únicos a través de la precisión y versatilidad del corte láser. Nos especializamos en diseñar y crear piezas personalizadas en una variedad de materiales como MDF y acrílicos. 
+            Desde cartelería y decoración hasta soluciones funcionales y de diseño, ofrecemos productos que combinan creatividad con tecnología avanzada.
+        </p>
+        <p>
+            Ya sea que necesites destacar tu marca, embellecer un espacio o crear una pieza única, estamos aquí para dar vida a tus proyectos con la máxima calidad y detalle.
+        </p>
+    </section>
    
     <script>
         const menuToggle = document.getElementById('menu-toggle');
