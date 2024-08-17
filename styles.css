@@ -23,72 +23,78 @@ nav {
     display: flex;
     background-color: #333;
     height: 50px;
-    padding: 10px;
+    /* padding: 10px; */
     user-select: none;
 }
 
 .logo{
+    padding: 10px;
     display:flex;
 }
 
 .logo img{
+    margin-top: 5px;
     max-height: 80%;
 }
 
 .logo h1{
     display: flex;
-    margin-top: 13px;
+    margin-top: 4px;
     margin-left: 10px;
 }
 
-.buttons{
+#buttons{
     padding: auto;
     margin-left: auto;
     display: flex;
     list-style-type: none;
 }
 
-.buttons a{
+#buttons a{
     color: #f0f0f0;
     text-decoration: none;
 }
 
-.buttons li {
+#buttons li {
     margin: 0 15px;
 }
 
-.hamburger {
+#hamburger {
     display: none;
     font-size: 24px;
     color: #f0f0f0;
     cursor: pointer;
     margin: auto 10px auto auto;
-    padding: auto;
+    padding: 10px;
 }
 
 @media (max-width: 768px) {
-    .buttons {
-        display: none;
+    #buttons {
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        /* display: flex; */
         flex-direction: column;
         width: 100%;
-        /* position: absolute; */
-        /* top: 50px; */
+        position: absolute;
+        top: 50px;
         background-color: #333;
-        /* padding: 10px 0;  */
-        /* transform: translateY(-100%); */
-        
+        transform: translateY(-100%);
+        transition: top 0.5s;
+        z-index: -1;
     }
-    /* .buttons li{
-        display: flex;
-    } */
 
-    .hamburger {
+    #buttons li{
+        padding: 10px;
+    }
+
+    #hamburger {
         display:block;
     }
 }
 
-.menu.active {
-    display: flex;
+#buttons.active {
+    top: 217px;
 }
 
 section {
@@ -103,4 +109,6 @@ section {
     height: 65vh; /* O usa un valor específico si no quieres el alto completo */
     text-align: center;
     padding: 20px;
+    position: absolute;
+    z-index: -2;
 }
