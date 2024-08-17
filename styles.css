@@ -4,6 +4,7 @@
     font-weight: lighter;
     font-style: normal;
 }
+
 @font-face {
     font-family: Nunito;
     src: url(assets/nunito/Nunito-Light.ttf);
@@ -15,7 +16,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #272727;
-    color: #f0f0f0; 
+    color: #f0f0f0;
     font-family: 'Nunito', sans-serif;
 }
 
@@ -27,30 +28,30 @@ nav {
     user-select: none;
 }
 
-.logo{
+.logo {
     padding: 10px;
-    display:flex;
+    display: flex;
 }
 
-.logo img{
+.logo img {
     margin-top: 5px;
     max-height: 80%;
 }
 
-.logo h1{
+.logo h1 {
     display: flex;
     margin-top: 4px;
     margin-left: 10px;
 }
 
-#buttons{
+#buttons {
     padding: auto;
     margin-left: auto;
     display: flex;
     list-style-type: none;
 }
 
-#buttons a{
+#buttons a {
     color: #f0f0f0;
     text-decoration: none;
 }
@@ -84,12 +85,12 @@ nav {
         z-index: -1;
     }
 
-    #buttons li{
+    #buttons li {
         padding: 10px;
     }
 
     #hamburger {
-        display:block;
+        display: block;
     }
 }
 
@@ -98,7 +99,7 @@ nav {
 }
 
 section {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: lighter;
     margin: 20px;
     line-height: 1.6;
@@ -106,9 +107,22 @@ section {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 65vh; /* O usa un valor específico si no quieres el alto completo */
+    height: 65vh;
     text-align: center;
     padding: 20px;
     position: absolute;
     z-index: -2;
+}
+
+.whatsapp {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    width: 50px;
+    height: 50px;
+}
+
+.whatsapp img {
+    width: 100%;
+    height: 100%;
 }

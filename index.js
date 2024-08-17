@@ -5,7 +5,7 @@ hamburger.addEventListener('click', () => {
     buttons.classList.toggle('active');
 });
 
-function loadContent(page) {
+function loadContent(page, toggleMenu) {
     let section = '';
 
     if (page === 'inicio') {
@@ -35,6 +35,8 @@ function loadContent(page) {
     }
 
     document.getElementById('section').innerHTML = section;
+    if (toggleMenu)
+        buttons.classList.toggle('active');
 }
 
-loadContent('inicio');
+loadContent('inicio', false);
