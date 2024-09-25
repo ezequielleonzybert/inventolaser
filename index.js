@@ -49,8 +49,17 @@ function loadContent(page, toggleMenu) {
         </div>
         `;
     } else if (page == 'productos') {
-        section = `
-        `
+        fetch('products/products.csv')
+            .then(response => response.text())
+            .then(data => {
+                const filas = data.split('\n');
+                filas.forEach(fila => {
+                    const columnas = fila.split(',');
+                    section += '<div id="product">' + columnas + '</div>';
+                });
+                document.getElementById('section').innerHTML = section;
+            })
+            .catch(error => console.error('Error:', error));
     }
 
     document.getElementById('section').innerHTML = section;

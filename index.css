@@ -31,7 +31,9 @@ body {
 nav {
     display: flex;
     height: 50px;
+    width: 100%;
     user-select: none;
+    position: fixed;
 }
 
 #topBar {
@@ -90,7 +92,7 @@ nav {
 }
 
 section {
-    padding: 50px 200px;
+    padding: 100px 200px;
     font-family: 'Nunito normal';
     font-weight: light;
     line-height: 1.6;
@@ -130,7 +132,7 @@ section {
     }
 
     section {
-        padding: 50px;
+        padding: 100px 50px;
     }
 }
 
