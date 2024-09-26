@@ -49,17 +49,42 @@ function loadContent(page, toggleMenu) {
         </div>
         `;
     } else if (page == 'productos') {
-        fetch('products/products.csv')
-            .then(response => response.text())
-            .then(data => {
-                const filas = data.split('\n');
-                filas.forEach(fila => {
-                    const columnas = fila.split(',');
-                    section += '<div id="product">' + columnas + '</div>';
-                });
-                document.getElementById('section').innerHTML = section;
-            })
-            .catch(error => console.error('Error:', error));
+        section = `
+            <div id="categorias">
+                <a class="categoria" href="#" draggable="false" onclick="loadContent('exhibidores', true)">
+                    <img src="assets/categorias/cajas.jpg">
+                    <div class="categoria-overlay"></div>
+                    <span class="categoria-text">cajas</span>
+                </a>
+                <a class="categoria" href="#" draggable="false" onclick="loadContent('cajas', true)">
+                    <img src="assets/categorias/exhibidores.jpg">
+                    <div class="categoria-overlay"></div>
+                    <span class="categoria-text">exhibidores</span>
+                </a>
+                <a class="categoria" href="#" draggable="false" onclick="loadContent('deco', true)">
+                    <img src="assets/categorias/deco.jpg">
+                    <div class="categoria-overlay"></div>
+                    <span class="categoria-text">deco</span>
+                </a>
+            </div>
+        `
+        // section = '<div id="grid">';
+        // fetch('products/products.csv')
+        //     .then(response => response.text())
+        //     .then(data => {
+        //         const filas = data.split('\n').slice(1);
+        //         const product = {};
+        //         filas.forEach(fila => {
+        //             const dato = fila.split(',');
+        //             product.name = dato[0];
+        //             product.description = dato[1];
+        //             product.price = dato[2];
+        //             section += '<div id="product">' + dato[0] + dato[1] + '$' + dato[2] + '</div>';
+        //         });
+        //         section += '</div>';
+        //         document.getElementById('section').innerHTML = section;
+        //     })
+        //     .catch(error => console.error('Error:', error));
     }
 
     document.getElementById('section').innerHTML = section;
