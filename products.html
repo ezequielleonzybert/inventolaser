@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>invento laser</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <nav>
+        <div id="topBar"></div>
+        <div class="logo">
+            <img src="assets/logo/logo.svg" alt="logo" draggable="false">
+            <h1>invento laser</h1>
+        </div>
+        <ul id="buttons">
+            <li><a href="#" draggable="false" onclick="loadContent('inicio', true)">inicio</a></li>
+            <li><a href="#" draggable="false" onclick="loadContent('servicios', true)">servicios</a></li>
+            <li><a href="#" draggable="false" onclick="loadContent('productos', true)">productos</a></li>
+            <li><a href="#" draggable="false" onclick="loadContent('contacto', true)">contacto</a>
+            </li>
+        </ul>
+        <div id="hamburger">
+            &#9776;
+        </div>
+    </nav>
+    <div id="search-menu">
+        <input type="search" name="search-input" id="search-input" placeholder="Buscar">
+        <a href="#" id="filtros">filtros</a>
+    </div>
+    <a href="https://wa.me/+5491155881953" target="_blank" class="whatsapp">
+        <img src="assets/WhatsApp_simple.svg" alt="WhatsApp Logo">
+    </a>
+    <script src="index.js"></script>
+</body>
+
+</html>
